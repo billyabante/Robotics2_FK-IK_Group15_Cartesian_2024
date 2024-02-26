@@ -57,7 +57,7 @@ print("H2_3= ")
 print(H2_3)
 
 H3_4 = np.matrix(H3_4)
-print("H2_3= ")
+print("H3_3= ")
 print(H3_4)
 
 H0_2 = np.dot(H0_1,H1_2)
