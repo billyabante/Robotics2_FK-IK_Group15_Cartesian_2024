@@ -6,10 +6,12 @@ a1 = 5;
 a2 = 10;
 a3 = 5;
 a4 = 10;
+
 %% Joint Variables
 d1 = 8;
 d2 = 8;
 d3 = 8;
+
 %% D-H Parameters [theta, d, r, alpha, offset]
 % if prismatic joint: theta, d = 0, offset = 1, after offset put the value of d
 % if revolute joint: theta = 0, after offset put the value of theta
