@@ -14,5 +14,6 @@ Abante, Billy (Project Programmer)
 DH-Frame assignment and Parametric Table of Cartesian Manipulator
 
 Inverse Kinematics:
+![InK Cartesian Manipulator](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/2737d38d-a779-4b3c-a797-76a3779cc524)
 
  
