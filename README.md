@@ -1,4 +1,4 @@
-This is Laboratory 1: Forward and Inverse Kinematics of Cartesian Manipulator
+This is Laboratory 1: Forward and Inverse Kinematics of Cartesian Manipulator of Group 15
 
 Group Members:
 
