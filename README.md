@@ -17,6 +17,6 @@ DH-Frame assignment and Parametric Table of Cartesian Manipulator
 
 Inverse Kinematics:
 Kinematic Diagram of Cartesian Manipulator
-![InK Cartesian Manipulator](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/2737d38d-a779-4b3c-a797-76a3779cc524)
+![IMG_20240329_103653_226@1803980299](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/a0104f5d-c74c-4bd0-831e-c16ad5860acd)
 
  
