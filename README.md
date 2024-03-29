@@ -10,13 +10,20 @@ Ponsica, Sydney Ruoj (Project QA)
 
 Abante, Billy (Project Programmer)
 
-
-DH-Frame assignment and Parametric Table of Cartesian Manipulator
-![1711677378576](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/c8cb3e67-08ca-4ebc-87c4-cd8b078b47e6)
-
-
-Inverse Kinematics:
-Kinematic Diagram of Cartesian Manipulator
-![IMG_20240329_103653_226@1803980299](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/a0104f5d-c74c-4bd0-831e-c16ad5860acd)
-
+I. Abstract of the Project
+•
+I. Introduction of the Project
+•
+Il. Degrees of Freedom of (assigned mechanical manipulator) description and computation.
+•
+IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
+•
+V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
+•
+VI. HTM of (assigned mechanical manipulator) description and computation.
+•
+VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
+•
+VIll. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
+•
  
