@@ -491,7 +491,6 @@ Z_E.grid(row=2,column=1)
 cm12.grid(row=2,column=2)
 
 # image frame
-# image frame
 img = PhotoImage(file="Cartesian.png")
 img = img.subsample(1,2)
 PI = Label(gui,image=img)
