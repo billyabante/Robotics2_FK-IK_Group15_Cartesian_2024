@@ -32,7 +32,23 @@ IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulat
 V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
 
-VI. HTM of (assigned mechanical manipulator) description and computation.
+VI. HTM of a Cartesian Manipulator
+
+Homogeneous Transformation Matrix (HTM) is a mathematical construct used in robotics and computer graphics to represent the position and orientation of an object in space. It combines rotation and translation into a single 4x4 matrix, allowing for efficient computations and transformations of points or objects within a coordinate system.
+
+The general form of a homogeneous transformation matrix ( T ) is:
+
+![image](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/72d4f66d-8c9f-4a83-ac38-1ec4d16c9279)
+
+where:
+- \( R \) is a 3x3 rotation matrix representing the orientation of the object.
+- \( \mathbf{d} \) is a 3x1 translation vector representing the position of the object.
+- \( \mathbf{0} \) is a 1x3 zero vector.
+- The bottom-right element is always 1, which allows for the matrix to be invertible and used in various transformations.
+
+This matrix can be used to perform operations such as rotating, translating, or scaling objects in a three-dimensional space, and it is particularly useful in the context of robotic manipulators and computer graphics modeling.
+
+![MTXX_MH20240330_110507322](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/f3dd7077-0813-4a22-8f73-c2a31fff1dee)
 
 
 VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
