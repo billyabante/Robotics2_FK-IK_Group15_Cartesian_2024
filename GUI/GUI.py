@@ -120,7 +120,7 @@ def f_k():
     J_sw = Toplevel()
     J_sw.title("Velocity Calculator")
     J_sw.resizable(False,False)
-    J_sw.config(bg="black")
+    J_sw.config(bg="pink")
    
     #1. Linear/Translation Vectors
     Z_1 = [[0],
@@ -218,17 +218,17 @@ def f_k():
 
     # Jacobian Sliders
 
-    d1_velo = Label(J_sw,text=("d1* = "),font=(5),bg="black",fg="white") 
-    d1_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="black",fg="white")
-    d1_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    d1_velo = Label(J_sw,text=("d1* = "),font=(5),bg="pink",fg="black") 
+    d1_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
+    d1_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
 
-    d2_velo = Label(J_sw,text=("d2* = "),font=(5),bg="black",fg="white") 
-    d2_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="black",fg="white")
-    d2_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    d2_velo = Label(J_sw,text=("d2* = "),font=(5),bg="pink",fg="black") 
+    d2_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
+    d2_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
 
-    d3_velo = Label(J_sw,text=("d3* = "),font=(5),bg="black",fg="white") 
-    d3_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="black",fg="white")
-    d3_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    d3_velo = Label(J_sw,text=("d3* = "),font=(5),bg="pink",fg="black") 
+    d3_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
+    d3_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
 
     d1_velo.grid(row=0,column=0)
     d1_slider.grid(row=0,column=1)
@@ -243,51 +243,51 @@ def f_k():
     d3_unit.grid(row=2,column=2)
 
     # Jacobian Entries and Labels
-    x_velo = Label(J_sw,text=("x* = "),font=(5),bg="black",fg="white") 
+    x_velo = Label(J_sw,text=("x* = "),font=(5),bg="pink",fg="black") 
     x_entry = Entry(J_sw,width=10,font=(10))
-    x_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    x_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
     x_velo.grid(row=3,column=0)
     x_entry.grid(row=3,column=1)
     x_unit.grid(row=3,column=2)
 
-    y_velo = Label(J_sw,text=("y* = "),font=(5),bg="black",fg="white") 
+    y_velo = Label(J_sw,text=("y* = "),font=(5),bg="pink",fg="black") 
     y_entry = Entry(J_sw,width=10,font=(10))
-    y_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    y_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
     y_velo.grid(row=4,column=0)
     y_entry.grid(row=4,column=1)
     y_unit.grid(row=4,column=2)
 
-    z_velo = Label(J_sw,text=("z* = "),font=(5),bg="black",fg="white") 
+    z_velo = Label(J_sw,text=("z* = "),font=(5),bg="pink",fg="black") 
     z_entry = Entry(J_sw,width=10,font=(10))
-    z_unit = Label(J_sw,text=("cm/s"),font=(5),bg="black",fg="white")
+    z_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
     z_velo.grid(row=5,column=0)
     z_entry.grid(row=5,column=1)
     z_unit.grid(row=5,column=2)
 
-    ωx_velo = Label(J_sw,text=("ωx = "),font=(5),bg="black",fg="white") 
+    ωx_velo = Label(J_sw,text=("ωx = "),font=(5),bg="pink",fg="black") 
     ωx_entry = Entry(J_sw,width=10,font=(10))
-    ωx_unit = Label(J_sw,text=("rad/s"),font=(5),bg="black",fg="white")
+    ωx_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
     ωx_velo.grid(row=6,column=0)
     ωx_entry.grid(row=6,column=1)
     ωx_unit.grid(row=6,column=2)
 
-    ωy_velo = Label(J_sw,text=("ωy = "),font=(5),bg="black",fg="white") 
+    ωy_velo = Label(J_sw,text=("ωy = "),font=(5),bg="pink",fg="black") 
     ωy_entry = Entry(J_sw,width=10,font=(10))
-    ωy_unit = Label(J_sw,text=("rad/s"),font=(5),bg="black",fg="white")
+    ωy_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
     ωy_velo.grid(row=7,column=0)
     ωy_entry.grid(row=7,column=1)
     ωy_unit.grid(row=7,column=2)
 
-    ωz_velo = Label(J_sw,text=("ωz = "),font=(5),bg="black",fg="white") 
+    ωz_velo = Label(J_sw,text=("ωz = "),font=(5),bg="pink",fg="black") 
     ωz_entry = Entry(J_sw,width=10,font=(10))
-    ωz_unit = Label(J_sw,text=("rad/s"),font=(5),bg="black",fg="white")
+    ωz_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
     ωz_velo.grid(row=8,column=0)
     ωz_entry.grid(row=8,column=1)
     ωz_unit.grid(row=8,column=2)
 
     # Update Button
-    update_but = Button(J_sw,text="Update",bg="green",fg="white",command=update_velo)
-    update_but.grid(row=9,column=0)
+    update_but = Button(J_sw,text="Update",bg="#cf3a60",fg="black",command=update_velo)
+    update_but.grid(row=10,column=1)
 
 
     # Create Links
