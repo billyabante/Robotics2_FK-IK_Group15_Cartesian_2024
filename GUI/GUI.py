@@ -111,183 +111,6 @@ def f_k():
     Z0_4 = H0_4[2,3]
     Z_E.delete(0,END)
     Z_E.insert(0,np.around(Z0_4,3))
-        
-        
-    ## Jacobian Matrix Program
-
-    # Jacobian Window
-
-    J_sw = Toplevel()
-    J_sw.title("Velocity Calculator")
-    J_sw.resizable(False,False)
-    J_sw.config(bg="pink")
-   
-    #1. Linear/Translation Vectors
-    Z_1 = [[0],
-           [0],
-           [1]] #0,0,1 vector
-
-    #Row 1 to 3, column 1
-    J1 = [[1,0,0],
-          [0,1,0],
-          [0,0,1]] #R0_0
-    J1 = np.dot(J1,Z_1)
-    J1 = np.matrix(J1)
-
-    #Row 1 to 3, column 2
-    Z_2 = [[0],
-           [0],
-           [1]] #0,0,1 vector
-
-    #Row 1 to 3, column 2
-    J2 = [[0,0,1],
-          [1,0,0],
-          [0,1,0]] #R0_1
-    J2 = np.dot(J2,Z_2)
-    J2 = np.matrix(J2)
-
-    #Row 1 to 3, column 3
-    Z_3 = [[0],
-           [0],
-           [1]] #0,0,1 vector
-
-    #Row 1 to 3, column 3
-    J3a = [[0,0,1],
-           [1,0,0],
-           [0,1,0]]
-        
-    J3b = [[0,0,-1],
-           [1,0,0],
-           [0,-1,0]] #R0_2
-        
-    J3c = np.dot(J3a,J3b)
-    J3 = np.dot(J3c,Z_3)
-    J3 = np.matrix(J3)
-
-    #Row 4 to 6, column 1
-    J4 = [[0],[0],[0]]
-    J4 = np.matrix(J4)
-
-    #Row 4 to 6, column 2
-    J5 = J4
-    J5 = np.matrix(J5)
-        
-    #Row 4 to 6, column 3
-    J6 = J4
-    J6 = np.matrix(J6)
-
-    #3. Concatenated Jacobian Matrix
-    JM1= np.concatenate((J1,J2,J3),1)
-    JM2 = np.concatenate((J4,J5,J6),1)
-
-    J = np.concatenate((JM1,JM2),0)
-    J = np.matrix(J)
-
-
-    def update_velo():
-        d1p = d1_slider.get()
-        d2p = d2_slider.get()
-        d3p = d3_slider.get()
-
-        q = np.array([[d1p],[d2p],[d3p]])
-        E = np.dot(J,q)
-
-        xp_e = E[0,0]
-        x_entry.delete(0,END)
-        x_entry.insert(0,str(xp_e))
-
-        yp_e = E[1,0]
-        y_entry.delete(0,END)
-        y_entry.insert(0,str(yp_e))
-
-        zp_e = E[2,0]
-        z_entry.delete(0,END)
-        z_entry.insert(0,str(zp_e))
-
-        ωx_e = E[3,0]
-        ωx_entry.delete(0,END)
-        ωx_entry.insert(0,str(ωx_e))
-
-        ωy_e = E[4,0]
-        ωy_entry.delete(0,END)
-        ωy_entry.insert(0,str(ωy_e))
-
-        ωz_e = E[5,0]
-        ωz_entry.delete(0,END)
-        ωz_entry.insert(0,str(ωz_e))
-
-    # Jacobian Sliders
-
-    d1_velo = Label(J_sw,text=("d1* = "),font=(5),bg="pink",fg="black") 
-    d1_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
-    d1_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-
-    d2_velo = Label(J_sw,text=("d2* = "),font=(5),bg="pink",fg="black") 
-    d2_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
-    d2_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-
-    d3_velo = Label(J_sw,text=("d3* = "),font=(5),bg="pink",fg="black") 
-    d3_slider = Scale(J_sw,from_=0,to_=30,orient=HORIZONTAL,length=100,sliderlength=10,bg="white",fg="black")
-    d3_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-
-    d1_velo.grid(row=0,column=0)
-    d1_slider.grid(row=0,column=1)
-    d1_unit.grid(row=0,column=2)
-
-    d2_velo.grid(row=1,column=0)
-    d2_slider.grid(row=1,column=1)
-    d2_unit.grid(row=1,column=2)
-
-    d3_velo.grid(row=2,column=0)
-    d3_slider.grid(row=2,column=1)
-    d3_unit.grid(row=2,column=2)
-
-    # Jacobian Entries and Labels
-    x_velo = Label(J_sw,text=("x* = "),font=(5),bg="pink",fg="black") 
-    x_entry = Entry(J_sw,width=10,font=(10))
-    x_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-    x_velo.grid(row=3,column=0)
-    x_entry.grid(row=3,column=1)
-    x_unit.grid(row=3,column=2)
-
-    y_velo = Label(J_sw,text=("y* = "),font=(5),bg="pink",fg="black") 
-    y_entry = Entry(J_sw,width=10,font=(10))
-    y_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-    y_velo.grid(row=4,column=0)
-    y_entry.grid(row=4,column=1)
-    y_unit.grid(row=4,column=2)
-
-    z_velo = Label(J_sw,text=("z* = "),font=(5),bg="pink",fg="black") 
-    z_entry = Entry(J_sw,width=10,font=(10))
-    z_unit = Label(J_sw,text=("cm/s"),font=(5),bg="pink",fg="black")
-    z_velo.grid(row=5,column=0)
-    z_entry.grid(row=5,column=1)
-    z_unit.grid(row=5,column=2)
-
-    ωx_velo = Label(J_sw,text=("ωx = "),font=(5),bg="pink",fg="black") 
-    ωx_entry = Entry(J_sw,width=10,font=(10))
-    ωx_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
-    ωx_velo.grid(row=6,column=0)
-    ωx_entry.grid(row=6,column=1)
-    ωx_unit.grid(row=6,column=2)
-
-    ωy_velo = Label(J_sw,text=("ωy = "),font=(5),bg="pink",fg="black") 
-    ωy_entry = Entry(J_sw,width=10,font=(10))
-    ωy_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
-    ωy_velo.grid(row=7,column=0)
-    ωy_entry.grid(row=7,column=1)
-    ωy_unit.grid(row=7,column=2)
-
-    ωz_velo = Label(J_sw,text=("ωz = "),font=(5),bg="pink",fg="black") 
-    ωz_entry = Entry(J_sw,width=10,font=(10))
-    ωz_unit = Label(J_sw,text=("rad/s"),font=(5),bg="pink",fg="black")
-    ωz_velo.grid(row=8,column=0)
-    ωz_entry.grid(row=8,column=1)
-    ωz_unit.grid(row=8,column=2)
-
-    # Update Button
-    update_but = Button(J_sw,text="Update",bg="#cf3a60",fg="black",command=update_velo)
-    update_but.grid(row=10,column=1)
 
 
     # Create Links
@@ -377,7 +200,7 @@ def i_k():
 
 
 # Link Lengths and Joint Variables Frame
-FI = LabelFrame(gui,text="Link Lengths and Joint Variables",font=(12),bg="black",fg="violet")
+FI = LabelFrame(gui,text="Link Lengths and Joint Variables",font=(12),bg="black",fg="#cf3a60")
 FI.grid(row=0,column=0)
 
 # The code below is creating a label frame and 
@@ -444,7 +267,7 @@ cm9.grid(row=2,column=5)
 
 # The code below is creating a frame and buttons.
 # Buttons Frame
-BF = LabelFrame(gui,text="    Forward & Inverse Kinematics     ",font=(12),bg="black",fg="violet")
+BF = LabelFrame(gui,text="    Forward & Inverse Kinematics     ",font=(12),bg="black",fg="#cf3a60")
 BF.grid(row=1,column=0)
 
 # Buttons
@@ -462,7 +285,7 @@ IK.grid(row=0,column=2)
 # column.
 
 # Position Vectors Frame
-PV = LabelFrame(gui,text=" Position Vectors  ",font=(12),bg="black",fg="violet")
+PV = LabelFrame(gui,text=" Position Vectors  ",font=(12),bg="black",fg="#cf3a60")
 PV.grid(row=2,column=0)
 
 # Position Vector
