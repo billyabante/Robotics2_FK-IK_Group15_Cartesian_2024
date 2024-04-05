@@ -97,6 +97,27 @@ Columns = **no. of parameters**
 
 Rows = **no. of frames - 1**
 
+D-H Parametric is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
+The **D-H Parametric Table** is consist of four parameters:
+
+The two parameters used for rotation/orientation are **θ** and **α**.
+
+The two parameters used for position/translation are **r** and **d**.
+
+Columns = **no. of parameters**
+
+Rows = **no. of frames - 1**
+
+**Denavit Hartenberg Parameters**
+
+**Theta θ** - Rotation around Zn-1 that is required to get Xn-1 to match Xn,with the joint variable,if joint is revolute/twisting jont.
+
+**Alpha α** - Rotation around Xn that is required to get Zn-1 to match Zn.
+
+**d** - The distance from the origin of n-1 and n frames along the Zn-1 direction,with a joint variable if joint is prismatic.
+
+**r** - The distance from the origin of n-1 and n frames along the Xn direction.
+
 
 
 <p align="center">
