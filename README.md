@@ -16,9 +16,10 @@ https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157
 ![abs](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157561589/a411beeb-e97f-452e-9905-fbab158ad9b6)
 
 ## II. Introduction of the Project
-Cartesian manipulators stand as archetypal tools in the realm of robotics, offering precise control and versatility. As we dive into the intricacies of these mechanisms, it becomes crucial to comprehend their underlying kinematic principles.
 
-<img align="left" width="300" height="auto" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/f7cb8c29-eac4-48e7-8785-64519570bc43/300/auto">
+<img align="left" width="300" height="auto" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/f7cb8c29-eac4-48e7-8785-64519570bc43/300/auto"></p>
+
+Cartesian manipulators stand as archetypal tools in the realm of robotics, offering precise control and versatility. As we dive into the intricacies of these mechanisms, it becomes crucial to comprehend their underlying kinematic principles.
 
 ## III. Degrees of Freedom of Cartesian Manipulator
 
