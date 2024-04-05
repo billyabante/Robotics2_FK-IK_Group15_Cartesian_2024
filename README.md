@@ -50,9 +50,9 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
 
 ## IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
 
-Kinematics Diagram - diagram that shows how the links and joints are connected together when all of the joint variables have a valu6 of 0.
+**Kinematics Diagram** is a diagram that shows how the links and joints are connected together when all of the joint variables have a valu6 of 0.
 
-In a Cartesian Manipulator,there are 3 joint variables which is PPP or prismatic, prismatic,prismatic as shown on the image.
+In a **Cartesian Manipulator**,there are 3 joint variables which is **PPP** or prismatic, prismatic,prismatic as shown on the image.
 
 <p align="center">
   <img width="460" height="auto" 
@@ -60,22 +60,22 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 After creating the Kinematic Diagram of the Cartesian Manipulator,the next step is the assigning of the X-axis, Y-axis and Z-axis of each frame,there's a rule called D-H Frame Rules.
 
-D-H Frame Rules - use to assign frames in a kinematics diagram for applying DH notation.
+**D-H Frame Rules** is use to assign frames in a kinematics diagram for applying DH notation.
 
 D-H Frame Rules:
 
-Rule 1: The Z axis must be the axis of rotation for a revolute/twisting or the direction of translation for a prismatic joint.
+**Rule 1:** The Z axis must be the axis of rotation for a revolute/twisting or the direction of translation for a prismatic joint.
 
-Rule 2: The X axis must be perpendicular both to it's own Z axis,and the Z axis of the frame before it.
+**Rule 2:** The X axis must be perpendicular both to it's own Z axis,and the Z axis of the frame before it.
 
-Rule 3: Each X axis must intersect the Z axis of ghe frame before it.
-Rules for complying Rule 3:
+**Rule 3:** Each X axis must intersect the Z axis of ghe frame before it.
+**Rules for complying Rule 3:**
 
 • rotate the axis until it hits the other.
 
 • or translate the axis until it hits the other.
 
-Rule 4: All frames must follow the right-hand rule.
+**Rule 4:** All frames must follow the right-hand rule.
 
 <p align="center">
   <img width="200" height="auto" 
