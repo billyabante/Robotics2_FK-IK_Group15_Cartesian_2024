@@ -100,9 +100,9 @@ Rows = **no. of frames - 1**
 
 **Denavit Hartenberg Parameters:**
 
-**Theta θ** - Rotation around Zn-1 that is required to get Xn-1 to match Xn,with the joint variable,if joint is revolute/twisting jont.
+**Theta (θ)** - Rotation around Zn-1 that is required to get Xn-1 to match Xn,with the joint variable,if joint is revolute/twisting jont.
 
-**Alpha α** - Rotation around Xn that is required to get Zn-1 to match Zn.
+**Alpha (α)** - Rotation around Xn that is required to get Zn-1 to match Zn.
 
 **d** - The distance from the origin of n-1 and n frames along the Zn-1 direction,with a joint variable if joint is prismatic.
 
@@ -141,6 +141,17 @@ This matrix can be used to perform operations such as rotating, translating, or 
 </p>
 
 ## VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
+**Inverse kinematics (IK)** is a method of solving the joint variables when the end-effector position and orientation (relative to the base frame) of a serial chain manipulator and all the geometric link parameters are known.
+
+**Advantages:**
+- For mimicking the motion of a human arm.
+- For detailed positioning of end-effector.
+
+**Disadvantage:**
+- Difficult to solve
+
+  The image below is Inverse Kinematics Computation using graphical method.
+  
 <p align="center">
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/fbb5d904-0171-49c3-8c5a-02067dca4d1b/460/auto">
