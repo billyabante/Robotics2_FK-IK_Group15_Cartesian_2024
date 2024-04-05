@@ -10,7 +10,13 @@
  
  **Abante, Billy (Project Programmer)**
 
+
+
+https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157561589/4d37b5bb-bd2a-4f10-b8a9-9361703f205a
+
+
 ## I. Abstract of the Project
+![abs](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157561589/a411beeb-e97f-452e-9905-fbab158ad9b6)
 
 This project explores the fundamental concepts and practical applications of a Cartesian Manipulator, focusing on their kinematics through various aspects including degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, parametric tables, homogeneous transformation matrices, and inverse kinematics.
 
