@@ -141,7 +141,9 @@ This matrix can be used to perform operations such as rotating, translating, or 
 </p>
 
 ## VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
-**Inverse kinematics (IK)** is a method of solving the joint variables when the end-effector position and orientation (relative to the base frame) of a serial chain manipulator and all the geometric link parameters are known.
+**Inverse Kinematics**, or IK, is a technique that calculates the required or optimal motion of a connected system of objects to arrive at a certain destination. In robotics, IK can determine how a robotic arm should move so that an actuator at the end of the arm is correctly positioned. In 3-D animation, IK can be enabled in animation software, so that movement of a child joint in a hierarchical character rig naturally affects parent objects.
+
+For example, when animating a 3-D human character with IK enabled, an animator can raise the ankle joint of a character, and the shin, thigh, and knee joint naturally moves and rotates.
 
 **Advantages:**
 - For mimicking the motion of a human arm.
@@ -150,7 +152,7 @@ This matrix can be used to perform operations such as rotating, translating, or 
 **Disadvantage:**
 - Difficult to solve
 
-  The image below is Inverse Kinematics Computation using graphical method.
+The image below is Inverse Kinematics Computation  of the Cartesian Manipulator using graphical method.
   
 <p align="center">
   <img width="460" height="auto" 
