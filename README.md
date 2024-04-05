@@ -153,7 +153,9 @@ The image below is Inverse Kinematics Computation  of the Cartesian Manipulator 
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/fbb5d904-0171-49c3-8c5a-02067dca4d1b/460/auto">
 
-## Click attach link to have access in the video
+## Click attached link to have access in the video
+
+https://drive.google.com/file/d/11PvbRsyCeANHvLLbAHveVCimcYM4fRW8/view?usp=drive_link
 
 ## VII. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
 **Forward Kinematics (FK)**
