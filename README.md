@@ -1,4 +1,4 @@
-# This is Laboratory 1: Forward and Inverse Kinematics of Cartesian Manipulator of Group 15
+# Midterms: Forward and Inverse Kinematics of Cartesian Manipulator of Group 15
 
 **Group Members:**
  
@@ -74,7 +74,12 @@ Rules for complying Rule 3:
 • or translate the axis until it hits the other.
 
 Rule 4: All frames must follow the right-hand rule.
-  
+
+<p align="center">
+  <img width="200" height="auto" 
+src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/e8eee44f-6903-4712-85ba-5b08b09c4192/200/auto">
+
+
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
 <p align="center">
