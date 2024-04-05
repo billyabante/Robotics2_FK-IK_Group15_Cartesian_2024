@@ -52,7 +52,7 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
 
 <p align="center">
   <img width="460" height="auto" 
-src=![Kinematics Diagram and D-H Frame Assignment]"https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/1b0aa4e1-065d-4690-861e-3d844a38415f/460/auto">
+src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/1b0aa4e1-065d-4690-861e-3d844a38415f/460/auto">
 
   
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
