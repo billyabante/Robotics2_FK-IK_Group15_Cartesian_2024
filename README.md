@@ -21,8 +21,6 @@ https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157
 
 Cartesian manipulators stand as archetypal tools in the realm of robotics, offering precise control and versatility.
 
-
-
 ## Il. Degrees of Freedom of Cartesian Manipulator
 
 **Degrees of Freedom (DOF)** - minimum number of independent parameters/variables/coordinates needed to describe a system completely.
