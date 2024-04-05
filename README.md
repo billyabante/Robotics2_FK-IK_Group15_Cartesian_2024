@@ -65,11 +65,14 @@ D-H Frame Rules - use to assign frames in a kinematics diagram for applying DH n
 D-H Frame Rules:
 
 Rule 1: The Z axis must be the axis of rotation for a revolute/twisting or the direction of translation for a prismatic joint.
+
 Rule 2: The X axis must be perpendicular both to it's own Z axis,and the Z axis of the frame before it.
+
 Rule 3: Each X axis must intersect the Z axis of ghe frame before it.
 Rules for complying Rule 3:
 • rotate the axis until it hits the other.
 • or translate the axis until it hits the other.
+
 Rule 4: All frames must follow the right-hand rule.
   
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
