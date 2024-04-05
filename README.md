@@ -50,6 +50,10 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
 
 ## IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
 
+Kinematics Diagram - diagram that shows how the links and joints are connected together when all of the joint variables have a valu6 of 0.
+
+In a Cartesian Manipulator,there are 3 joint variables which is PPP or prismatic, prismatic,prismatic as shown on the image.
+
 <p align="center">
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/1b0aa4e1-065d-4690-861e-3d844a38415f/460/auto">
