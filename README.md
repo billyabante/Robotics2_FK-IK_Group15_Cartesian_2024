@@ -142,5 +142,34 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 
 ## VIll. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
+**Forward Kinematics (FK)**
 
+The GUI.py code in GUI folder above is a Graphical User Interface (GUI) calculator for a Cartesian manipulator to perform Forward Kinematics (FK) and Inverse Kinematics (IK) calculations.
+
+
+   •The ***f_k()*** function calculates the end-effector position ***(X, Y, Z)*** of the manipulator for a given set of joint variables ***(d1, d2, d3)***. 
+
+   •**Link Lengths and Joint Variables** retrieves the link lengths (a1, a2, a3, a4) and joint variables (d1, d2, d3) from the user entries.
+
+   •**DH Parameters** defines a Parametric Table (PT) containing Denavit-Hartenberg (DH) parameters for each joint, including theta (joint angle), alpha (link twist), a (link length), and d (joint offset).
+
+   •**Transformation Matrices** iterates through each joint and calculates the homogeneous transformation matrix (HTM) using the DH parameters and trigonometric functions. This HTM represents the transformation from the previous frame to the current frame.
+
+
+
+**Inverse Kinematics (IK)**
+
+The ***i_k()*** function calculates the joint variables ***(d1, d2, d3)*** required to move the end-effector to a desired position (X, Y, Z).
+
+   •**Inverse Kinematic solution** calculates the joint variables based on the desired position and link lengths using simple geometric relationships (assuming a specific manipulator configuration). This might not always provide a solution or might have multiple solutions.
+
+***Joint Variable Update and Visualization*** updates the entry fields with the calculated joint variables (d1, d2, d3).
+It creates a DH robot object using the calculated joint variables and link lengths.
+It visualizes the manipulator configuration for the calculated joint variables using a plotting library.
+
+## Note:
+
+The code utilizes the roboticstoolbox library for DH parameter calculations and robot visualization.
+
+The code uses a simplified approach for IK, which might not work for all manipulator configurations or have multiple solutions.
  
