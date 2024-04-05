@@ -12,7 +12,7 @@
 
 ## I. Abstract of the Project
 
-This project explores the fundamental concepts and practical applications of a Cartesian Manipulator. 
+This project explores the fundamental concepts and practical applications of a Cartesian Manipulator, focusing on their kinematics through various aspects including degrees of freedom (DOF), Denavit-Hartenberg (D-H) notation, parametric tables, homogeneous transformation matrices, and inverse kinematics.
 
 
 ## I. Introduction of the Project
