@@ -57,6 +57,10 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
   
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
+<p align="center">
+  <img width="460" height="auto" 
+src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/b17506d8-e3ca-4ff5-9afb-56cbade1789b/460/auto">
+
 
 ## VI. HTM of a Cartesian Manipulator
 
@@ -84,6 +88,9 @@ This matrix can be used to perform operations such as rotating, translating, or 
 </p>
 
 ## VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
+<p align="center">
+  <img width="460" height="auto" 
+src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/fbb5d904-0171-49c3-8c5a-02067dca4d1b/460/auto">
 
 
 ## VIll. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
