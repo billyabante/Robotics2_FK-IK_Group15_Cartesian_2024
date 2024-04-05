@@ -15,13 +15,13 @@ https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157
 ## I. Abstract of the Project
 ![abs](https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157561589/a411beeb-e97f-452e-9905-fbab158ad9b6)
 
-## I. Introduction of the Project
+## II. Introduction of the Project
 
 <img align="left" width="300" height="auto" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/f7cb8c29-eac4-48e7-8785-64519570bc43/300/auto">
 
 Cartesian manipulators stand as archetypal tools in the realm of robotics, offering precise control and versatility. As we dive into the intricacies of these mechanisms, it becomes crucial to comprehend their underlying kinematic principles.
 
-## II. Degrees of Freedom of Cartesian Manipulator
+## III. Degrees of Freedom of Cartesian Manipulator
 
 **Degrees of Freedom (DOF)** - minimum number of independent parameters/variables/coordinates needed to describe a system completely.
 
@@ -34,7 +34,7 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
 ## Click attached link to have access in the video
 https://drive.google.com/file/d/123PyAxTl0SZx5YlWe9C0DpQsg9fVGvX_/view?usp=drive_link
 
-## III. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
+## IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
 
 **Kinematics Diagram** is a diagram that shows how the links and joints are connected together when all of the joint variables have a value of 0.
 
@@ -71,7 +71,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 https://drive.google.com/file/d/1nET1D4HxH4avvljhaaRBcPIc6dYerNc4/view?usp=drive_link
 
-## IV. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
+## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
 **D-H Parametric Table** is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
 The D-H Parametric Table is consist of four parameters:
@@ -102,7 +102,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 https://drive.google.com/file/d/1nZEx-hNI2Q3rqwRPrM6MCsJUJcJHtkT4/view?usp=drive_link
 
-## V. HTM of a Cartesian Manipulator
+## VI. HTM of a Cartesian Manipulator
 
    **Homogeneous Transformation Matrix (HTM)** is a mathematical construct used in robotics and computer graphics to represent the position and orientation of an object in space. It combines rotation and translation into a single 4x4 matrix, allowing for efficient computations and transformations of points or objects within a coordinate system.
 
@@ -131,7 +131,7 @@ This matrix can be used to perform operations such as rotating, translating, or 
 
 https://drive.google.com/file/d/1dw4oERW9iJPIrxQMnCwZPxxy8N0gmljH/view?usp=drive_link
 
-## VI. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
+## VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
 **Inverse Kinematics**, or IK, is a technique that calculates the required or optimal motion of a connected system of objects to arrive at a certain destination. In robotics, IK can determine how a robotic arm should move so that an actuator at the end of the arm is correctly positioned. In 3-D animation, IK can be enabled in animation software, so that movement of a child joint in a hierarchical character rig naturally affects parent objects.
 
 For example, when animating a 3-D human character with IK enabled, an animator can raise the ankle joint of a character, and the shin, thigh, and knee joint naturally moves and rotates.
@@ -153,7 +153,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 https://drive.google.com/file/d/11PvbRsyCeANHvLLbAHveVCimcYM4fRW8/view?usp=drive_link
 
-## VII. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
+## VIII. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
 **Forward Kinematics (FK)**
 
 The GUI.py code in GUI folder above is a Graphical User Interface (GUI) calculator for a Cartesian manipulator to perform Forward Kinematics (FK) and Inverse Kinematics (IK) calculations.
@@ -181,4 +181,5 @@ It visualizes the manipulator configuration for the calculated joint variables u
 The code utilizes the roboticstoolbox library for DH parameter calculations and robot visualization.
 
 The code uses a simplified approach for IK, which might not work for all manipulator configurations or have multiple solutions.
- 
+
+ ## VIII. References
