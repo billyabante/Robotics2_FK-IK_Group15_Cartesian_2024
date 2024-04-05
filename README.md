@@ -102,7 +102,9 @@ Rows = **no. of frames - 1**
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/b17506d8-e3ca-4ff5-9afb-56cbade1789b/460/auto">
 
-## Click attach link to have access in the video
+## Click attached link to have access in the video
+
+https://drive.google.com/file/d/1nZEx-hNI2Q3rqwRPrM6MCsJUJcJHtkT4/view?usp=drive_link
 
 ## V. HTM of a Cartesian Manipulator
 
