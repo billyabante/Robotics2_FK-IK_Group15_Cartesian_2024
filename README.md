@@ -87,8 +87,8 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
 
-D-H Parametric is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
-The **D-H Parametric Table** is consist of four parameters:
+**D-H Parametric Table** is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
+The D-H Parametric Table is consist of four parameters:
 
 The two parameters used for rotation/orientation are **θ** and **α**.
 
