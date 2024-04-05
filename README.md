@@ -32,6 +32,7 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
   <img width="460" height="auto" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/b45d7805-ce31-4a46-abb5-8ec1b60be907/460/auto">
 </p>
 
+## Click attach link to have access in the video
 https://drive.google.com/file/d/123PyAxTl0SZx5YlWe9C0DpQsg9fVGvX_/view?usp=drive_link
 
 ## III. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
@@ -67,6 +68,7 @@ D-H Frame Rules:
   <img width="200" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/e8eee44f-6903-4712-85ba-5b08b09c4192/200/auto">
 
+## Click attach link to have access in the video
 
 ## IV. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
@@ -98,6 +100,7 @@ Rows = **no. of frames - 1**
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/b17506d8-e3ca-4ff5-9afb-56cbade1789b/460/auto">
 
+## Click attach link to have access in the video
 
 ## V. HTM of a Cartesian Manipulator
 
@@ -124,6 +127,8 @@ This matrix can be used to perform operations such as rotating, translating, or 
   <img width="auto" height="750" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/f3dd7077-0813-4a22-8f73-c2a31fff1dee/auto/750">
 </p>
 
+## Click attach link to have access in the video
+
 ## VI. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
 **Inverse Kinematics**, or IK, is a technique that calculates the required or optimal motion of a connected system of objects to arrive at a certain destination. In robotics, IK can determine how a robotic arm should move so that an actuator at the end of the arm is correctly positioned. In 3-D animation, IK can be enabled in animation software, so that movement of a child joint in a hierarchical character rig naturally affects parent objects.
 
@@ -142,6 +147,7 @@ The image below is Inverse Kinematics Computation  of the Cartesian Manipulator 
   <img width="460" height="auto" 
 src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157568463/fbb5d904-0171-49c3-8c5a-02067dca4d1b/460/auto">
 
+## Click attach link to have access in the video
 
 ## VII. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
 **Forward Kinematics (FK)**
