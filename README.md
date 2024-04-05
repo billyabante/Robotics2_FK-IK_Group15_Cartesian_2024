@@ -84,7 +84,16 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
-Denavit-Hartenberg (DH) parameters are often used in robotics to describe the robot properties like axis orientations and arm lengths The 4 DH parameters are called theta, alpha, r, and d.
+D-H Parametric is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
+The **D-H Parametric Table** is consist of four variables:
+
+The two variables used for rotation/orientation are **θ** and **α**.
+
+The two variables used for position/translation are **r** and **d**.
+
+Columns = **no. of parameters**
+
+Rows = **no. of frames - 1**
 
 
 
