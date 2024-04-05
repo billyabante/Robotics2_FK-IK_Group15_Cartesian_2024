@@ -32,6 +32,7 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
   <img width="460" height="auto" src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157590037/b45d7805-ce31-4a46-abb5-8ec1b60be907/460/auto">
 </p>
 
+
 ## III. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
 
 **Kinematics Diagram** is a diagram that shows how the links and joints are connected together when all of the joint variables have a value of 0.
