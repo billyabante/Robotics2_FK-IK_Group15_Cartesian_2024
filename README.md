@@ -160,7 +160,12 @@ https://drive.google.com/file/d/11PvbRsyCeANHvLLbAHveVCimcYM4fRW8/view?usp=drive
 
 The GUI.py code in GUI folder above is a Graphical User Interface (GUI) calculator that calculates the Forward Kinematics (FK) and Inverse Kinematics (IK) of a Cartesian manipulator.
 
-
+<p align="center"> 
+DESIGN OF CARTESIAN GUI CALCULATOR
+ 
+<p align="center">
+ <img width="460" height="auto" 
+src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157665849/8dff62b3-2497-49fd-8dff-01a8e4e2621b">
 
 **Forward Kinematics (FK)**
 
