@@ -12,6 +12,8 @@
 
 ## I. Abstract of the Project
 
+This project explores the fundamental concepts and practical applications of a Cartesian Manipulator. 
+
 
 ## I. Introduction of the Project
 
