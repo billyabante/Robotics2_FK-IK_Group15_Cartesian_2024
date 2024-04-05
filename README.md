@@ -70,7 +70,9 @@ Rule 2: The X axis must be perpendicular both to it's own Z axis,and the Z axis 
 
 Rule 3: Each X axis must intersect the Z axis of ghe frame before it.
 Rules for complying Rule 3:
+
 • rotate the axis until it hits the other.
+
 • or translate the axis until it hits the other.
 
 Rule 4: All frames must follow the right-hand rule.
