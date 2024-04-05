@@ -21,7 +21,6 @@ https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/assets/157
 
 Cartesian manipulators stand as archetypal tools in the realm of robotics, offering precise control and versatility. As we dive into the intricacies of these mechanisms, it becomes crucial to comprehend their underlying kinematic principles.
 
-
 ## II. Degrees of Freedom of Cartesian Manipulator
 
 **Degrees of Freedom (DOF)** - minimum number of independent parameters/variables/coordinates needed to describe a system completely.
@@ -74,7 +73,6 @@ https://drive.google.com/file/d/1nET1D4HxH4avvljhaaRBcPIc6dYerNc4/view?usp=drive
 
 ## IV. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
-
 **D-H Parametric Table** is a shortcut for finding homogeneous transformation matrices and is commonly seen in documentation for industrial robots as well as in the research literature.
 The D-H Parametric Table is consist of four parameters:
 
@@ -95,8 +93,6 @@ Rows = **no. of frames - 1**
 **d** - The distance from the origin of n-1 and n frames along the Zn-1 direction,with a joint variable if joint is prismatic.
 
 **r** - The distance from the origin of n-1 and n frames along the Xn direction.
-
-
 
 <p align="center">
   <img width="460" height="auto" 
@@ -162,7 +158,6 @@ https://drive.google.com/file/d/11PvbRsyCeANHvLLbAHveVCimcYM4fRW8/view?usp=drive
 
 The GUI.py code in GUI folder above is a Graphical User Interface (GUI) calculator for a Cartesian manipulator to perform Forward Kinematics (FK) and Inverse Kinematics (IK) calculations.
 
-
    •The ***f_k()*** function calculates the end-effector position ***(X, Y, Z)*** of the manipulator for a given set of joint variables ***(d1, d2, d3)***. 
 
    •**Link Lengths and Joint Variables** retrieves the link lengths (a1, a2, a3, a4) and joint variables (d1, d2, d3) from the user entries.
@@ -170,9 +165,7 @@ The GUI.py code in GUI folder above is a Graphical User Interface (GUI) calculat
    •**DH Parameters** defines a Parametric Table (PT) containing Denavit-Hartenberg (DH) parameters for each joint, including theta (joint angle), alpha (link twist), a (link length), and d (joint offset).
 
    •**Transformation Matrices** iterates through each joint and calculates the homogeneous transformation matrix (HTM) using the DH parameters and trigonometric functions. This HTM represents the transformation from the previous frame to the current frame.
-
-
-
+   
 **Inverse Kinematics (IK)**
 
 The ***i_k()*** function calculates the joint variables ***(d1, d2, d3)*** required to move the end-effector to a desired position (X, Y, Z).
