@@ -40,7 +40,7 @@ This is where the intro goes...
 
 ## Il. Degrees of Freedom of Cartesian Manipulator
 
-**Degrees of Freedom (DOF)** - definition
+**Degrees of Freedom (DOF)** - minimum number of independent parameters/variables/coordinates needed to describe a system completely.
 
 In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** was used.
 
