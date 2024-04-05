@@ -108,7 +108,7 @@ Columns = **no. of parameters**
 
 Rows = **no. of frames - 1**
 
-**Denavit Hartenberg Parameters**
+**Denavit Hartenberg Parameters:**
 
 **Theta θ** - Rotation around Zn-1 that is required to get Xn-1 to match Xn,with the joint variable,if joint is revolute/twisting jont.
 
