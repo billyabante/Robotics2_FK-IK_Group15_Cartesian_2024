@@ -71,7 +71,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 ## Click attached link to have access in the video
 
-https://drive.google.com/file/d/1nET1D4HxH4avvljhaaRBcPIc6dYerNc4/view?usp=drive_link
+https://youtu.be/0vgv4zLiQnc?si=4270468Xb9NkDZ9K
 
 ## V. D-H Parametric Table of (assigned mechanical manipulator) description and computation.
 
