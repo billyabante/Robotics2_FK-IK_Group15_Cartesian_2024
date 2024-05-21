@@ -34,7 +34,8 @@ In order to get the DOF of a Cartesian Manipulator, the **_Grubler's Formula_** 
 </p>
 
 ## Click attached link to have access in the video
-https://drive.google.com/file/d/123PyAxTl0SZx5YlWe9C0DpQsg9fVGvX_/view?usp=drive_link
+
+https://youtu.be/pwTqY1VeyDo
 
 ## IV. Kinematic Diagram and D-H Frame assignment of (assigned mechanical manipulator) description and computation.
 
