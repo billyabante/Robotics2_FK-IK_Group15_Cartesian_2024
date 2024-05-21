@@ -132,7 +132,7 @@ This matrix can be used to perform operations such as rotating, translating, or 
 
 ## Click attached link to have access in the video
 
-https://drive.google.com/file/d/1dw4oERW9iJPIrxQMnCwZPxxy8N0gmljH/view?usp=drive_link
+https://youtu.be/xkjJgIZzat0
 
 ## VII. Inverse Kinematics of (assigned mechanical manipulator) description and computation.
 **Inverse Kinematics**, or IK, is a technique that calculates the required or optimal motion of a connected system of objects to arrive at a certain destination. In robotics, IK can determine how a robotic arm should move so that an actuator at the end of the arm is correctly positioned. In 3-D animation, IK can be enabled in animation software, so that movement of a child joint in a hierarchical character rig naturally affects parent objects.
