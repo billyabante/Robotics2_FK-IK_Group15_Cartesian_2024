@@ -153,8 +153,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 ## Click attached link to have access in the video
 
-https://drive.google.com/file/d/11PvbRsyCeANHvLLbAHveVCimcYM4fRW8/view?usp=drive_link
-
+https://youtu.be/340Ry3-E-3U?si=bNHCtyw5EO-_aizb
 
 ## VIII. Forward and Inverse Kinematics GUl calculator of (assigned mechanical manipulator) description and computation.
 
