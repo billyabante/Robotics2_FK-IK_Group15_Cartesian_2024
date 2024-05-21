@@ -103,7 +103,7 @@ src="https://github.com/billyabante/Robotics2_FK-IK_Group15_Cartesian_2024/asset
 
 ## Click attached link to have access in the video
 
-https://drive.google.com/file/d/1nZEx-hNI2Q3rqwRPrM6MCsJUJcJHtkT4/view?usp=drive_link
+https://youtu.be/cxPh_nz-B2Q
 
 ## VI. HTM of a Cartesian Manipulator
 
